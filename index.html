@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Charlotte Mueller</title>
+  <link rel="icon" type="image/png" href="icon.jpeg">
+  <style>
+    
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: #ffffff;
+      color: #333333;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.8;
+    }
+
+   
+    header {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 40px 24px 24px;
+      text-align: center;
+      border-bottom: 1px solid #dce8e1;
+    }
+
+    h1 {
+      margin: 0 0 16px;
+      color: #426b59;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(32px, 6vw, 48px);
+      font-weight: normal;
+      line-height: 1.2;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px 30px;
+    }
+
+    a {
+      color: #426b59;
+      text-underline-offset: 5px;
+    }
+
+    nav a {
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    
+    main {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    section {
+      padding: 40px 0;
+      border-bottom: 1px solid #dce8e1;
+      scroll-margin-top: 20px;
+    }
+
+    h2 {
+      margin: 0 0 20px;
+      color: #426b59;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 30px;
+      font-weight: normal;
+      line-height: 1.3;
+    }
+
+    h3 {
+      margin: 24px 0 8px;
+      color: #426b59;
+      font-size: 18px;
+    }
+
+    p {
+      margin: 0 0 18px;
+    }
+
+    
+    .about-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 280px;
+      gap: 40px;
+      align-items: start;
+    }
+
+    .profile-photo {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+   
+    .quote {
+      margin: 0 0 24px;
+      padding: 18px 22px;
+      background: #f1f7f3;
+      border-left: 3px solid #86aa96;
+    }
+
+    .quote blockquote {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      font-style: italic;
+    }
+
+    .quote blockquote p {
+      margin: 0 0 10px;
+    }
+
+    .quote figcaption {
+      color: #52685b;
+      font-size: 14px;
+    }
+
+    .closing-quote {
+      margin: 36px 0;
+    }
+
+    /* RÉSUMÉ AND LINKEDIN BUTTONS */
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      border: 1px solid #426b59;
+      border-radius: 5px;
+      color: #426b59;
+      text-decoration: none;
+    }
+
+    .button:hover {
+      background: #f1f7f3;
+    }
+
+    a:focus-visible {
+      outline: 3px solid #426b59;
+      outline-offset: 4px;
+    }
+
+    footer {
+      padding: 30px 24px;
+      text-align: center;
+      color: #666666;
+      font-size: 14px;
+    }
+
+    
+    @media (max-width: 700px) {
+      .about-layout {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+
+      .profile-photo {
+        grid-row: 1;
+        max-width: 280px;
+        margin: 0 auto;
+      }
+
+      nav {
+        gap: 10px 20px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAME AND NAVIGATION -->
+  <header id="top">
+    <h1>Charlotte Mueller</h1>
+
+    <nav aria-label="Main navigation">
+      <a href="#about">About Me</a>
+      <a href="#resume">Resume</a>
+      <a href="#research">Research</a>
+      <a href="#linkedin">LinkedIn</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ABOUT ME -->
+    <section id="about">
+      <div class="about-layout">
+
+        <div>
+          <h2>About Me</h2>
+
+          <!-- FIRST SCIENTIST QUOTE -->
+          <figure class="quote">
+            <blockquote>
+              <p>"It is so important to allow children to bloom and to be driven by their curiosity."
+</p>
+            </blockquote>
+
+            <figcaption>— May-Britt Moser</figcaption>
+          </figure>
+
+          
+
+          <p>
+I am a first-year pre-nursing student with assured admission to the Bachelor of Science in Nursing program at The University of North Carolina at Chapel Hill. Along with pursuing nursing, I am interested in working with children. Through volunteering, medical internships, and my work experience, I have learned the importance of building relationships and helping others feel supported. These experiences have shaped my interest in pediatric healthcare and the kind of nurse I hope to become, which is someone who listens carefully, treats people fairly, and helps patients and families understand their care.
+</p>
+
+          <p>My love for working with children has grown through volunteering at my church's summer art camp. I began serving during the summer before my freshman year of high school and continued for 5 years after. I really value being someone they could look up to and feel comfortable around, and it became one of the most meaningful parts of serving. 
+I got the opportunity to participate in a medical internship during high school. Visiting multiple medical facilities gave me opportunities to observe differences in caring for children and adults and to consider the roles of treatment and prevention. This internship helped me connect my interest of working with kids to healthcare and sparked my interest in patient education and how healthcare workers can support families beyond an appointment. Pediatric nursing offers me an opportunity to combine medical knowledge with the communication and relationship-building that I already enjoy.
+</p>
+
+          <p>Through my work and volunteer experiences, I have developed strong communication, organization, and problem-solving skills. At Carefree Boat Club and Saladworks, I learned to communicate with a wide variety of people, balance multiple responsibilities, and remain calm when unexpected situations arise. These roles taught me to pay attention to details while adapting to the needs of customers and coworkers. Volunteering with children has also strengthened my patience and ability to explain things clearly while helping children feel welcome and supported.
+</p>
+
+          <p>Across these experiences, I have learned to work independently, contribute to a team, and follow through on my responsibilities. My goal is to be dependable and approachable, and I will bring these qualities into my academics, relationships, and community involvement.
+At UNC, I want to continue to build and learn skills that will prepare me to work with children and families and overall become a nurse that will make a difference through both the care I provide and the relationships I build.
+</p>
+
+          
+        </div>
+
+        <!-- YOUR PHOTO -->
+        <!-- Put your photo in the same folder as index.html. -->
+        <!-- Replace photo.jpg with its exact filename. -->
+        <img
+          class="profile-photo"
+          src="photo.jpg"
+          alt="Charlotte Mueller"
+        >
+
+      </div>
+    </section>
+
+
+    <!-- RESEARCH -->
+    <section id="research">
+      <h2>Research</h2>
+
+      <h3>The Role of Education in Preventative Pediatric Healthcare
+
+      </h3>
+      <p>I want to research how preventive, family-centered care in early childhood can support children's long-term health and emotional development. Specifically, I am interested in whether programs that teach parents to communicate positively and respond to their preschool-aged children's emotions can help reduce behavioral problems as children grow. This question connects my interest in clinical psychology and early mental health support with my goal of working as a nurse in pediatric psychiatric care. I want to understand how nurses can build relationships with children and their families, recognize concerns early, and make patient and family education a central part of care.
+
+      </p>
+
+
+<!-- SECOND SCIENTIST QUOTE -->
+    <figure class="quote closing-quote">
+      <blockquote>
+        <p>A good designer has a lot in common with a good researcher. Both hunt for excellence and perfection. And you have to really focus on the details, and you don't really know what the final result will be before you have it.
+</p>
+      </blockquote>
+
+      <figcaption>— May-Britt Moser</figcaption>
+    </figure>
+
+      
+</section>
+    
+
+
+    <!-- RÉSUMÉ -->
+    <section id="resume">
+      <h2>Academic Resume</h2>
+
+      <!-- Put your résumé PDF in the same folder as index.html. -->
+      <!-- Change resume.pdf if your file has a different name. -->
+      <a class="button" href="resume.pdf">
+        View my resume (PDF)
+      </a>
+
+      <!-- PASTE YOUR RESUME DETAILS BELOW -->
+      <!-- Rename categories to match your actual résumé. -->
+
+      <h3>Education</h3>
+      <p>University of Chapel Hill – Chapel Hill, NC (August 2026 - May 2030)
+Bachelor of Science in Nursing<p>
+    
+</p>Liberty Preparatory Christian Academy – Mooresville, NC (August 2022 - May 2026)</p>
+
+      
+
+      <ul>
+        <li>HOSA (Health Occupations Students of America), Aug 2022, May 2026</li>
+        <li>National Honors Society, Aug. 2023-May 2026</li>
+      </ul>
+
+      <h3>Work Experience</h3>
+      <p>Saladworks | Assistant Manager | Huntersville, May 2023 - May 2026</p>
+      <p>Carefree Boat Club | Dock Hand | Cornelis, January 2024 - Present</p>
+      <p>Novanta 90 | Hostess | Mooresville, June. 2025 - October. 2025</p>
+
+
+      <ul>
+        <li>Worked as a cashier, shift lead, kitchen staff member, and assistant manager, providing friendly customer service, accurately preparing orders, and maintaining an organized environment. Demonstrated teamwork, attention to detail, dependability, and composure in a fast-paced setting.</li>
+        <li>Provided friendly, professional service to club members and guests while managing multiple responsibilities and maintaining a welcoming environment. Demonstrated clear communication, teamwork, attention to detail, and calm problem-solving, with reliability proven through three years of consistent employment.</li>
+        <li>Efficiently seated guests, provided friendly customer service, and resolved issues over the phone.</li>
+      </ul>
+
+      <h3>Leadership and Service</h3>
+      <p>Student Ambassador, Liberty Prep, Aug. 2024 - May 2026</p>
+      <p>Lake Forest Art Camp, Lake Forest Church, June 2025 - Present</p>
+
+      <ul>
+        <li>Led a group of children during a weeklong summer program, assisted with activities, and fostered a welcoming environment. Collaborated with staff and volunteers while demonstrating patience, responsibility, and strong communication skills.</li>
+      </ul>
+
+      <h3>Skills and Certifications</h3>
+      <p>Assured Admissions at Carolina Nursing</p>
+      <p>Cross Country – Coaches Award, Most Improved</p>
+      <p>All-A Honor Roll</p>
+      <p>CPR/AED for Healthcare Providers, American Heart Association - April 2026</p>
+    </section>
+
+
+    
+
+    <!-- LINKEDIN -->
+    <section id="linkedin">
+      <h2>LinkedIn</h2>
+
+      <p>
+        Connect with me to learn more about my experience
+        and professional interests.
+      </p>
+
+      <!-- Replace the example URL with your actual profile link. -->
+      <a
+        class="button"
+        href="https://www.linkedin.com/in/charlottegmueller/"
+      >
+        Visit my LinkedIn
+      </a>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Charlotte Mueller | UNC–Chapel Hill</p>
+    <a href="#top">Back to top</a>
+  </footer>
+
+</body>
+</html>

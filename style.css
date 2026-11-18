@@ -1,0 +1,14 @@
+#title {
+    font-family: 'Calibri', sans-serif;
+    color: rgb(132, 172, 203)
+
+}
+.navbar {
+    text-align: right;
+    padding: 10px 40px 0 0;
+}
+.navbar ul {
+    list-style-type: none;
+
+
+}
